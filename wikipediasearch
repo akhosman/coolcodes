@@ -1,0 +1,6 @@
+import wikipedia
+
+wikipedia.set_lang('EN')
+data = wikipedia.search('Mercy Ministries')
+result = wikipedia.summary(data[0])
+print(result)
