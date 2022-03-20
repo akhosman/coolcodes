@@ -1,0 +1,9 @@
+<<<Calories burned per minute
+
+time = int(input('How many minutes were you exercising? '))
+
+calories = 0  
+for i in range(time):
+    calories += 3.4
+
+print('You burned {} calories'.format(calories))
